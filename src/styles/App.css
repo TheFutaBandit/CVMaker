@@ -1,0 +1,47 @@
+@font-face {
+  font-family: "Computer_Modern_Bold";
+  src: url(src/assets/fonts/Computer_Modern/cmunbx.ttf);
+}
+
+@font-face {
+font-family: "Computer_Modern";
+src: url(src/assets/fonts/Computer_Modern/cmunrn.ttf);
+}
+
+@font-face {
+font-family: "Computer_Modern_Italic";
+src: url(src/assets/fonts/Computer_Modern/cmunti.ttf);
+}
+
+@font-face {
+  font-family: "Computer_Modern_7";
+  src: url(src/assets/fonts/Computer_Modern/Computer_Modern_4.ttf);
+}
+
+
+#root {
+  display: grid;
+  grid-template-columns: 100px 360px minmax(600px , 800px);
+  padding: 25px 100px;
+  gap: 50px;
+  background-color: #ffffff;
+  color: #1e1f1f;
+  /* font-family: "Computer_Modern_Bold"; */
+}
+
+#root > .resume-section {
+  grid-column: 3;
+  height: 1000px;
+}
+
+.resume-section {
+  border: 1px solid black;
+}
+
+.logo-container {
+  border: 1px solid black;
+  max-height: 73.6px;
+  max-width: 73.6px;
+  border-radius: 100%;
+}
+

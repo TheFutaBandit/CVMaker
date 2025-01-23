@@ -1,0 +1,68 @@
+/*
+  Josh's Custom CSS Reset
+  https://www.joshwcomeau.com/css/custom-css-reset/
+*/
+
+*, *::before, *::after {
+    box-sizing: border-box;
+  }
+  
+  * {
+    margin: 0;
+  }
+  
+  body {
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+  }
+  
+  img, picture, video, canvas, svg {
+    display: block;
+    max-width: 100%;
+  }
+  
+  input, button, textarea, select {
+    font: inherit;
+  }
+  
+  p, h1, h2, h3, h4, h5, h6 {
+    overflow-wrap: break-word;
+  }
+  
+  p {
+    text-wrap: pretty;
+  }
+  h1, h2, h3, h4, h5, h6 {
+    text-wrap: balance;
+  }
+  
+  #root, #__next {
+    isolation: isolate;
+  }
+
+@font-face {
+    font-family: "Barlow_Condensed";
+    src: url(src/assets/fonts/Barlow_Condensed/BarlowCondensed-Regular.ttf)
+}
+
+@font-face {
+    font-family: "Poppins-Regular";
+    src: url(src/assets/fonts/Poppins/Poppins-Regular.ttf);
+}
+
+@font-face {
+    font-family: "Poppins-Bold";
+    src: url(src/assets/fonts/Poppins/Poppins-Bold.ttf);
+}
+
+.site-title {
+    font-family: 'Poppins-Bold';
+    font-size: 48px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+}
+
+.education-section-title {
+    
+}

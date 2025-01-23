@@ -1,0 +1,162 @@
+/*
+  Josh's Custom CSS Reset
+  https://www.joshwcomeau.com/css/custom-css-reset/
+*/
+
+*, *::before, *::after {
+    box-sizing: border-box;
+  }
+  
+  * {
+    margin: 0;
+  }
+  
+  body {
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+  }
+  
+  img, picture, video, canvas, svg {
+    display: block;
+    max-width: 100%;
+  }
+  
+  input, button, textarea, select {
+    font: inherit;
+  }
+  
+  p, h1, h2, h3, h4, h5, h6 {
+    overflow-wrap: break-word;
+  }
+  
+  p {
+    text-wrap: pretty;
+  }
+  h1, h2, h3, h4, h5, h6 {
+    text-wrap: balance;
+  }
+  
+  #root, #__next {
+    isolation: isolate;
+  }
+
+@font-face {
+    font-family: "Computer_Modern_Bold";
+    src: url(src/assets/fonts/Computer_Modern/cmunbx.ttf);
+}
+
+@font-face {
+  font-family: "Computer_Modern";
+  src: url(src/assets/fonts/Computer_Modern/cmunrn.ttf);
+}
+
+@font-face {
+  font-family: "Computer_Modern_Italic";
+  src: url(src/assets/fonts/Computer_Modern/cmunti.ttf);
+}
+
+@font-face {
+    font-family: "Computer_Modern_7";
+    src: url(src/assets/fonts/Computer_Modern/Computer_Modern_4.ttf);
+}
+
+
+.resume-section {
+    display: flex;
+    flex-direction: column;
+    padding: 50px 40px;
+    background-color: #fefefe;
+    gap: 20px;
+}
+
+.profile-section {
+    font-family: "Computer_Modern";
+    display: flex;
+    justify-content: space-between;
+    /* border: 1px solid black; */
+}
+
+
+
+.profile-section .first-name {
+    font-family: "Computer_Modern";
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 1;
+}
+
+.profile-section .left-column {
+    line-height: 1.2;
+}
+
+.profile-section .right-column {
+    padding-top: 18px;
+    line-height: 1.2;
+}
+
+.general-section {
+    /* border: 1px solid black; */
+}
+
+.sectionName {
+    font-family: "Computer_Modern";
+    font-size: 18px;
+    border-bottom: 1px solid black;
+    padding-left: 4px;
+    margin-bottom: 6px;
+}
+
+.sectionName p::first-letter {
+    font-size: 24px;
+}
+
+.general-section .content-section {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.general-resume-section {
+  display: flex;
+  gap: 12px;
+}
+
+.bullet-point {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.bulletPoint {
+  height: 8px;
+  width: 8px;
+  background-color: black;
+  border-radius: 100%;
+}
+
+
+.education-resume-section {
+    flex-grow: 1;
+    font-family: "Computer_Modern_Bold";
+    display: flex;
+    justify-content: space-between;
+    border: none;
+    line-height: 1.2;
+}
+
+.education-resume-section .left-column .degree-name, 
+.education-resume-section .right-column .date {
+  font-family: "Computer_Modern_Italic";
+}
+
+.experience-resume-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-grow: 1;
+}
+
+.experienceDescription {
+  font-size: 14px;
+  color: #313131;
+}

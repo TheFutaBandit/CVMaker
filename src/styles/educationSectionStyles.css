@@ -1,0 +1,37 @@
+.education-section {
+    padding: 10px 4px;
+    border: 1px solid black;
+    /* border-radius: 10px; */
+  }
+  
+  .education-input-section {
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 15px 5px;
+  }
+  
+  .education-section-title {
+    font-family: "Poppins-Bold";
+    font-size: 14px;
+  }
+  
+  .education_expand_button {
+    width: 25px;
+    height: 25px;
+    /* border: 1px solid #dde0e5; */
+    background-color: white;
+    /* border-radius: 15px; */
+    border: none;
+    transition: transform 0.2s;
+    background-position: center;
+    background-size: cover;
+  }
+  
+  .education-section-header {
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 5px;
+    align-items: center;
+  }
