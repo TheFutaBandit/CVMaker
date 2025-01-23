@@ -1,6 +1,6 @@
 import { useState } from "react"
 
-import "/home/futabandit/reactRepos/resume-project/src/styles/resumeSection.css";
+import "../styles/resumeSection.css";
 
 function ProfileSectionResume({ resumeProfileState }) {
     let fullName = resumeProfileState.firstName + " " + resumeProfileState.secondName;

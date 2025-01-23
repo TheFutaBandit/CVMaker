@@ -1,6 +1,6 @@
 import {useState} from 'react'
 
-import "/home/futabandit/reactRepos/resume-project/src/styles/educationSectionStyles.css"
+import "../styles/educationSectionStyles.css"
 
 import { EducationInputSection } from './EducationInputSection';
 

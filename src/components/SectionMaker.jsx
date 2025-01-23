@@ -6,7 +6,7 @@ export default function SectionMaker({name, children}) {
     const [displayMenu, setDisplayMenu] = useState(false);
     const downArrowAddress = "src/assets/icons/down-arrow.png";
     return (
-        <div className = {displayMenu ? "section sectionActive" : "section"}>
+        <div className = "section">
             <div className = "section-header">
                 <div className = "section-title">{name}</div>
                 <button 
